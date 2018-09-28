@@ -1,0 +1,16 @@
+#It takes string as a input 
+#Then removes duplicates 
+#Finally prints in reverse order
+def srrr():
+    i=0
+    a=str(input("Enter your string:"))
+    b=list(a)
+    while (i<len(b)-1):
+        if (b[i]==b[i+1]):
+            del b[i]
+            i+=1
+        else:i+=1
+    c=''.join(b)
+    print(c[::-1])
+if __name__=="__main__":
+    srrr()
