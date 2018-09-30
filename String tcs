@@ -8,7 +8,6 @@ def srrr():
     while (i<len(b)-1):
         if (b[i]==b[i+1]):
             del b[i]
-            i+=1
         else:i+=1
     c=''.join(b)
     print(c[::-1])
